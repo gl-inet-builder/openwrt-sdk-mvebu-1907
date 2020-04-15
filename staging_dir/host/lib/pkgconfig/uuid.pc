@@ -1,0 +1,11 @@
+prefix=/home/zl/gl-image/gl-image/openwrt-19.07.git/staging_dir/host
+exec_prefix=/home/zl/gl-image/gl-image/openwrt-19.07.git/staging_dir/host
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 1.45.3
+Requires: 
+Cflags: -I${includedir}/uuid -I${includedir}
+Libs: -L${libdir} -luuid
