@@ -9098,6 +9098,10 @@ config LUCI_CSSTIDY
 	bool
 	default y
 
+config LUCI_LANG_bg
+	bool
+	default n
+
 config LUCI_LANG_ca
 	bool
 	default n
@@ -9127,6 +9131,10 @@ config LUCI_LANG_fr
 	default n
 
 config LUCI_LANG_he
+	bool
+	default n
+
+config LUCI_LANG_hi
 	bool
 	default n
 
