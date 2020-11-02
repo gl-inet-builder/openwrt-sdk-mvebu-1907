@@ -1,2 +1,6 @@
 build_dir/*
 staging_dir/*
+scripts/*
+feeds/*
+package/*
+tmp/*
